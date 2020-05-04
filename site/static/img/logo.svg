@@ -6,6 +6,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    viewBox="0 0 109 24"
@@ -39,7 +40,7 @@
      id="namedview977"
      showgrid="false"
      inkscape:zoom="7.9406553"
-     inkscape:cx="34.381891"
+     inkscape:cx="57.480461"
      inkscape:cy="11.428191"
      inkscape:window-x="0"
      inkscape:window-y="23"
@@ -53,19 +54,19 @@
      id="g966">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:31.4471px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.786173"
-       x="1540.4369"
-       y="20.92247"
+       style="font-style:normal;font-weight:normal;font-size:34.76299999999999812px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient862);fill-opacity:1;stroke:none;stroke-width:0.86907"
+       x="1643.1387"
+       y="20.648495"
        id="text1544"
-       transform="scale(0.97229212,1.0284975)"><tspan
+       transform="scale(0.91049595,1.0983025)"><tspan
          sodipodi:role="line"
          id="tspan1542"
-         x="1540.4369"
-         y="20.92247"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#000080;stroke-width:0.786173">enzo</tspan></text>
+         x="1643.1387"
+         y="20.648495"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:url(#linearGradient862);stroke-width:0.86907;fill-opacity:1">enzo</tspan></text>
     <path
        sodipodi:type="star"
-       style="fill:#000080"
+       style="fill:url(#linearGradient854);fill-opacity:1"
        id="path1548"
        sodipodi:sides="5"
        sodipodi:cx="1485.1121"
@@ -96,12 +97,36 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="m 1488.3866,16.875181 -4.7802,-1.37122 -3.8395,3.160388 -0.173,-4.9699 -4.1922,-2.674972 4.6732,-1.7003475 1.2486,-4.8136117 3.0612,3.9190277 4.9639,-0.3000034 -2.7813,4.1224399 z"
-       inkscape:transform-center-x="0.62309857"
-       inkscape:transform-center-y="-0.31360827"
-       transform="matrix(1.3250648,0,0,1.2401486,-478.46767,-2.3413355)" />
+       inkscape:transform-center-x="0.67828099"
+       inkscape:transform-center-y="-0.34959646"
+       transform="matrix(1.4424493,0,0,1.3824588,-652.66442,-4.1159247)" />
   </g>
   <defs
      id="defs973">
+    <linearGradient
+       id="linearGradient860"
+       inkscape:collect="always">
+      <stop
+         id="stop856"
+         offset="0"
+         style="stop-color:#0055d4;stop-opacity:1" />
+      <stop
+         id="stop858"
+         offset="1"
+         style="stop-color:#5599ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient852"
+       inkscape:collect="always">
+      <stop
+         id="stop848"
+         offset="0"
+         style="stop-color:#0044aa;stop-opacity:1" />
+      <stop
+         id="stop850"
+         offset="1"
+         style="stop-color:#80b3ff;stop-opacity:1" />
+    </linearGradient>
     <path
        id="b"
        d="M22.735 23.171c.283.323.053.829-.376.829h-5.907c-.285 0-.556-.121-.745-.333l-9.414-10.526v10.36c0 .276-.224.5-.5.5h-5.293c-.276 0-.5-.224-.5-.5v-23c0-.276.224-.5.5-.5h5.293c.276 0 .5.224.5.5v9.815l9.141-9.99c.19-.207.457-.325.738-.325h5.762c.437 0 .664.521.366.841l-9.851 10.563 10.287 11.767z" />
@@ -117,5 +142,23 @@
     <path
        id="f"
        d="M102.913 24c-.276 0-.5-.224-.5-.5v-23c0-.276.224-.5.5-.5h5.293c.276 0 .5.224.5.5v23c0 .276-.224.5-.5.5h-5.293z" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="19.897602"
+       x2="1497.0758"
+       y1="10.64246"
+       x1="1473.8452"
+       id="linearGradient854"
+       xlink:href="#linearGradient852"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="17.084723"
+       x2="1686.0129"
+       y1="4.8158278"
+       x1="1685.8746"
+       id="linearGradient862"
+       xlink:href="#linearGradient860"
+       inkscape:collect="always" />
   </defs>
 </svg>
