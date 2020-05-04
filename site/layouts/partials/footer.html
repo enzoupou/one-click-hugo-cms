@@ -1,53 +1,57 @@
-<footer class="bg-black ph3 pv4 white">
+<div class="container">
+  <br>
+  <br>
+  <hr class="d-print-none">
+  <br>
+  <br>
+</div>
+<div class="jumbotron bg-light d-print-none" style="margin-bottom:0">
+   <div class="container">
+   <hr>
+   
+   <div class="card-columns bg-default">
+    <div class="card">
+      <div class="card-body">
+        <small>
+        <p><a class="nav-link" href="<?php echo base_url(); ?>about"><i class="fa fa-user-secret"></i> About Us</a>
+        <a class="nav-link" href="<?php echo base_url(); ?>contact"><i class="fa fa-phone"></i> Contact Us</a>
+        <a class="nav-link" href="<?php echo base_url(); ?>faq"><i class="fa fa-question-circle-o"></i> FAQs</a></p>
+      </small>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <!-- Add font awesome icons -->
+        <small>
+        <p>
+        <a class="nav-link" href="#"><i class="fa fa-facebook"></i> Facebook</a>
+        <a class="nav-link" href="#"><i class="fa fa-twitter"></i> Twitter</a>
+        <a class="nav-link" href="https://youtu.be/YqDQaHGUKGE"><i class="fa fa-youtube"></i> Youtube</a>
+        </p>
+      </small>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <!-- Add font awesome icons -->
+        <small>
+        <p>
 
-	<div class="mw7 center pt3">
+        </p>
+      </small>
+      </div>
+    </div>
 
-		<div class="measure-narrow center mb4">
+  </div>
 
-			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
-			<p class="f3 lh-title light-gray b tc mb2">Newsletter subscribe</p>
-			<p>Get awesome news from us in your inbox every two weeks. Be the first to learn about new products.</p>
 
-			{{ partial "newsletter-form" . }}
+  </div>
+</div>
 
-		</div>
 
-		<div class="flex-ns justify-between">
 
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Enzo</h3>
-				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
-					<li><a href="/contact" class="link">Contact</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
-				<ul class="mb3">
-					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
-					<li><a href="/contact" class="link">Schedule and appointment</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
-				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
-				</ul>
-			</div>
-
-		</div>
-	</div>
-
-</footer>
-
-{{ partial "svg" . }}
-
-<script src="/app.js"></script>
+<div class="jumbotron text-center bg-dark text-light d-print-none" style="margin-bottom:0">
+  <small><p>Copyright &copy; 2020 enzoportal. All rights reserved.
+    <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+  </small>
+</div>
